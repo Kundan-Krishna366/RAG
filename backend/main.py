@@ -50,7 +50,6 @@ RULES:
 2. If the answer to their conceptual question is not in the context, strictly say: "I'm sorry, but that information is not available in the uploaded document."
 3. Do NOT use your internal general knowledge to answer.
 4. Maintain a professional, technical tone."""
-# ---------------------------
 
 def get_llm():
     return ChatGroq(
